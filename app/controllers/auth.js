@@ -5,7 +5,7 @@ module.exports = {
 }
 
 function isAdmin(req, res, next) {
-  if(req.body.isAdmin) {
+  if(req.query.isAdmin) {
     return next();
   }
 

@@ -7,7 +7,7 @@ module.exports = {
 }
 
 function initMongoose() {
-    mongoose.connect('mongodb://127.0.0.1:27017/aries-4', {
+    mongoose.connect('mongodb://127.0.0.1:27017/aries4', {
       useNewUrlParser: true,
       useUnifiedTopology: true
     })

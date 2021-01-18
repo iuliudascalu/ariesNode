@@ -16,6 +16,17 @@ const userSchema = new Schema ({
     required: true,
     unique: true
   },
+  address: {
+    streetName: {
+      type: String,
+    },
+    streetNumber: {
+      type: String
+    },
+    city: {
+      type: String
+    }
+  }
 }, {
   timestamps: {currentTime: ()=> new Date().getDate()}
 })
